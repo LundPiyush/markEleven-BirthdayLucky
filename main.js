@@ -1,7 +1,7 @@
 const dateOfBirth = document.querySelector("#input-date-of-birth");
 const luckyNumber = document.querySelector("#input-lucky-number");
 const btnCheck = document.querySelector("#btn-check");
-const message = document.querySelector("#error-message");
+const message = document.querySelector("#message");
 
 function isBirthDayLucky(){
     const date = dateOfBirth.value;
@@ -26,10 +26,10 @@ function calculateSum(date,luckyNo){
         sum = sum + Number(date[i])
     }
     if(sum % luckyNo==0){
-        message.innerHTML="Yay, your birthday is lucky"
+        message.innerHTML="Yay, your birthday is lucky 🥳"
     }
     else{
-        message.innerHTML ="Oops! Your birthday is not lucky"
+        message.innerHTML ="Oops! Your birthday is not lucky 😢"
     }
 }
 

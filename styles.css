@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+:root{
+    --primary-color:#D3D3D3;
+    --secondary-color:#587EDE;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+input,label{
+    display: block;
+    height: 1.4rem;
+}
+
+label{
+    margin-bottom: 0.5rem;
+}
+
+input{
+    margin-bottom: 1.5rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    height: 2rem;
+    border: 1px black solid;
+}
+
+body{
+    font-family: 'Marmelad', sans-serif;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: var(--primary-color);
+}
+
+button{
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 1rem auto;    
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#message{
+    font-weight: bold;
+    font-size: large;
+}
+
+
